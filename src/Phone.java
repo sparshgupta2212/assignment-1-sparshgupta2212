@@ -18,8 +18,6 @@ class Person implements Serializable {
 
     private Person next;
 
-
-
     public Person() {
 
         next = null;
