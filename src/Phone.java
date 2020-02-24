@@ -65,7 +65,6 @@ class Person implements Serializable {
     }
 
 
-
     public void setAnotherContactNumber(String anotherContactNumber) {
 
         this.anotherContactNumber = anotherContactNumber;
