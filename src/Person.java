@@ -1,9 +1,8 @@
 import java.io.Serializable;
 
-public class Phone {@SuppressWarnings("serial")
 
+@SuppressWarnings("serial")
 class Person implements Serializable {
-
 
 
     private String firstName;
@@ -18,12 +17,12 @@ class Person implements Serializable {
 
     private Person next;
 
+
     public Person() {
 
         next = null;
 
     }
-
 
 
     public String getFirstName() {
@@ -33,13 +32,11 @@ class Person implements Serializable {
     }
 
 
-
     public void setFirstName(String firstName) {
 
         this.firstName = firstName;
 
     }
-
 
 
     public String getLastName() {
@@ -49,13 +46,11 @@ class Person implements Serializable {
     }
 
 
-
     public void setLastName(String lastName) {
 
         this.lastName = lastName;
 
     }
-
 
 
     public void setContactNumber(String contactNumber) {
@@ -72,13 +67,11 @@ class Person implements Serializable {
     }
 
 
-
     public void setE_mailAddress(String e_mailAddress) {
 
         this.e_mailAddress = e_mailAddress;
 
     }
-
 
 
     public Person getNext() {
@@ -88,17 +81,11 @@ class Person implements Serializable {
     }
 
 
-
     public void setNext(Person next) {
 
         this.next = next;
 
     }
-
-
-
-    // toString method @Override
-
 
 
     public String toString() {
@@ -108,4 +95,4 @@ class Person implements Serializable {
     }
 
 }
-}
+
